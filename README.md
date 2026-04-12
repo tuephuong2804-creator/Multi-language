@@ -18,6 +18,7 @@ Precision
 Recall
 F1-score
 Analyze classification errors from a linguistic perspective
+
 📊 Dataset
 Source: Kaggle (Language Detection dataset)
 Total samples: ~10,000
@@ -42,6 +43,7 @@ Classifier: Multinomial Naive Bayes
 🔹 Model 2: Transformer
 Model: XLM-RoBERTa (pre-trained)
 Direct text classification using HuggingFace pipeline
+
 📈 Results
 Model	Accuracy
 Naive Bayes	0.9898
@@ -50,6 +52,7 @@ Key Findings:
 Naive Bayes performs slightly better in overall accuracy
 Transformer performs better on closely related languages
 Errors mainly occur among Romance languages
+
 🔍 Error Analysis
 Confusion occurs between:
 French, Spanish, Italian
@@ -57,6 +60,7 @@ Causes:
 Shared vocabulary (e.g., information, nation)
 Similar morphology and spelling
 Transformer reduces confusion with unrelated languages
+
 🛠️ Technologies Used
 Python
 pandas
@@ -64,6 +68,7 @@ scikit-learn
 matplotlib
 transformers (HuggingFace)
 PyTorch
+
 🚀 How to Run
 1. Clone repository
 git clone https://github.com/your-username/your-repo.git
