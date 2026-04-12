@@ -1,0 +1,21 @@
+digraph {
+	A [label="Dataset (Kaggle)"]
+	B [label="Filtering (4 languages)"]
+	C [label="Train-Test Split (80/20)"]
+	D [label="TF-IDF (char n-grams)"]
+	E [label="Naive Bayes"]
+	F [label="Predictions (NB)"]
+	G [label="Transformer (XLM-R)"]
+	H [label="Predictions (XLM-R)"]
+	I [label="Evaluation
+Accuracy / F1 / Confusion Matrix"]
+	A -> B
+	B -> C
+	C -> D
+	D -> E
+	E -> F
+	C -> G
+	G -> H
+	F -> I
+	H -> I
+}
