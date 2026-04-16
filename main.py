@@ -109,7 +109,3 @@ disp_bert = ConfusionMatrixDisplay(confusion_matrix=cm_bert, display_labels=labe
 disp_bert.plot(cmap="Blues")
 plt.title("Transformer Confusion Matrix")
 plt.show()
-<<<<<<< HEAD
-=======
-
->>>>>>> e18e1a5 (update README and main code)
