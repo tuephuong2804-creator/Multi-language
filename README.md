@@ -27,12 +27,12 @@ French
 Spanish
 Italian
 
-These languages were selected to examine:
-
+## These languages were selected to examine:
 Differences between language families
 Similarities within Romance languages
-⚙️ Methodology
-🔹 Data Processing
+
+## Methodology
+Data Processing
 Load dataset from CSV
 Filter selected languages
 Train-test split (80/20, stratified)
