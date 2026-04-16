@@ -69,7 +69,6 @@ matplotlib
 transformers (HuggingFace)
 PyTorch
 
-
 🚀 How to Run
 1. Clone repository
 git clone https://github.com/your-username/your-repo.git
@@ -78,3 +77,6 @@ cd your-repo
 pip install -r requirements.txt
 3. Run the project
 python main.py
+
+📜 License
+This project is for academic purposes only.
